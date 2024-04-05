@@ -1,0 +1,378 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    overflow: hidden;
+}
+
+nav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.logo {
+    height: 10vh;
+}
+
+/* Style for the search container */
+.search-container {
+    float: right;
+}
+
+.search-container input {
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+}
+
+.search-container button {
+    padding: 5px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbarElements {
+    margin-left: 90px;
+    margin-top: px;
+}
+
+.navbarElements a.active {
+    background-color: white;
+    color: black;
+}
+
+
+footer {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    width: 100vw;
+    bottom: 0;
+    position: relative;
+    align-items: center;
+}
+
+.footer-column {
+    display: inline-block;
+    width: 30%;
+    height: 8vh;
+    text-align: left;
+    margin-bottom: 90px;
+}
+
+/* Optional: Style links in the footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.maingrid {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    width: 70%;
+}
+.grid{
+    display: flex;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.grid img {
+    height: 100px;
+    border-radius: 10px;
+}
+.backgroundimg{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.backgroundimg img{
+    height: 100%;
+    width: 100vw;
+    filter: brightness(0.4);
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+.text button{
+    color: #383737;
+    font-weight: bold;
+}
+.header {
+    background-color: #333;
+    color: #9f1f1f;
+    padding: 20px;
+    text-align: center;
+}
+
+.section {
+    padding: 20px;
+}
+.collygrid {
+display: flex;
+width: 100%;
+height: 70vh;
+}
+.collysubgrid{
+    padding: 15px;
+    background-color: whitesmoke;
+    width: 30%;
+    margin: auto;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.btn {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+.btn:hover{
+    color: #000000;
+    background-color: rgb(189, 189, 188);
+}
+.unigrid{
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    width: 70%;
+}
+.unisubgrid{
+    display: flex;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.button{
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+.Signupform{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+
+}
+.Signupform h1{
+    color: #0d0d0e;
+    margin-bottom: 30px;
+}   
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 95%;
+    border: 1px solid #999;
+    outline: none;
+}
+button{
+    color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.Signupbtn{
+    background-color: #21afde;
+}
+.googlebtn{
+    background-color: #21afde;
+}
+a
+{
+    text-decoration: none;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    background: #fff;
+    width: 30px;
+    margin: -19px auto;
+}
+.container{
+    min-height: 100vh;
+    background: #08071d;
+    position: relative;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+}
+.container img {
+    height: 100%;
+    filter: brightness(0.6) blur(7px);
+    width: 100vw;
+}
+.container form{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    flex-wrap: wrap;
+}
+.container form h1{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+.container form input{
+    color: #fff;
+    width: 290px;
+    height: 40px;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #fff;
+}
+.container form input::placeholder{
+    color: #fff;
+}
+.container form h4{
+    color: #fff;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+}
+.container form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    width: 80%;
+}
+.container form #button{
+    border: none;
+    background: #999;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    transition: 0.3s;
+}
+ 
+.container form #button:hover{
+    opacity: 0.7;
+}
+.heading{
+    text-align: center;
+    margin-top: 25px;
+}
+.heading h1{
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.heading p{
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.about-us{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+.about-us img{
+    flex: 0 50%;
+    max-width: 50%;
+    height: auto;
+}
+.content{
+    padding: 35px;
+}
+.content h2{
+    color: #242526;
+    font-size: 15px;
+    margin: 15px 0px ;
+}
+.content p{
+    color: #1b1b1b;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px 0px;
+}
+.readmorebtn {
+    display: inline-block;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2 ease;
+}
+.readmorebtn:hover{
+background-color: #000000;
+}
+/* .about-us{
+    flex-direction: column;
+}
+.about-us img{
+    flex: 0 100%;
+    max-width: 100%;
+}
+.content{
+    flex: 0 100%;
+    max-width: 100%;
+    padding: 15px;
+} */
